@@ -1,11 +1,113 @@
+#e-commerce {
+    background: url('Images/eCommerce.png') 
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 70vh;
+}
+
+.about img {
+    max-width: 100%;
+    margin-left: 970px;
+    position: relative;
+    bottom: 400px;
+    width: 450px; 
+    height: 250px;
+  }
+
+.best-sellers img {
+    margin-left: 165px;
+    position: relative;
+    bottom: 310px;
+    width: 250px;
+    padding: 50px;
+    width: 350px;
+}
+
+.best-sellers p {
+    margin-left: 340px;
+    position: relative;
+    bottom: 350px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.groceries img {
+    margin-left: 600px;
+    position: relative;
+    bottom: 715px;
+    width: 250px;
+    padding: 50px;
+    width: 250px;
+}
+
+.groceries a {
+    margin-left: 740px;
+    position: relative;
+    bottom: 735px;
+    text-decoration: none;
+}
+
+.homeliving img {
+    margin-left: 970px;
+    position: relative;
+    bottom: 1095px;
+    padding: 60px;
+    width: 400px;
+}
+
+.homeliving p {
+    margin-left: 1190px;
+    position: relative;
+    bottom: 1141px;
+}
+
+.women img {
+    margin-left: 160px;
+    position: relative;
+    bottom: 1100px;
+    width: 350px;
+}
+
+.women p {
+    margin-left: 325px;
+    position: relative;
+    bottom: 1150px;
+}
+
+.men img {
+    margin-left: 590px;
+    position: relative;
+    bottom: 1520px;
+}
+
+.men p {
+    margin-left: 765px;
+    position: relative;
+    bottom: 1575px;
+}
+
+.appliances img {
+    margin-left: 1030px;
+    position: relative;
+    bottom: 1940px;
+}
+
+.appliances p {
+    margin-left: 1215px;
+    position: relative;
+    bottom: 2000px;
+}
+
 body {
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FAFDF3;
 }
 
+
 nav {
-    background-color: white;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #FAFDF3;
 }
 
 nav ul {
@@ -25,7 +127,7 @@ nav a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: #3b5998;
 }
 
 nav a:hover {
@@ -33,17 +135,36 @@ nav a:hover {
 }
 
 .e-commerce img {
-    align-items: center;
-    width: 100%;
-    height: 400px;
-  }
+    width: 0px;
+    height: auto;
+}
 
+h2 {
+    margin-left: 230px;
+    padding: 60px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-  h3 {
-    font-weight: normal;
+main {
+    margin-left: 290px;
+    padding: 20% auto;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
     text-align: center;
-    align-items: center;
-  }
+    justify-content: center;
+    margin: 50px;
+}
+
+h4 {
+    justify-content: center;
+}
+
 
 
   
