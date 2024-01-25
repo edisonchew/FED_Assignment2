@@ -5,6 +5,13 @@
     height: 70vh;
 }
 
+.e-commerce-groceries {
+    background: url('Images/iStock-1371318211-1120x455-c-default.jpg') 
+    no-repeat center center fixed;
+    background-size: cover;
+    height: 70vh;
+}
+
 .about img {
     max-width: 100%;
     margin-left: 970px;
@@ -163,6 +170,21 @@ h3 {
 
 h4 {
     justify-content: center;
+}
+
+.pork-belly img {
+    margin-left: 165px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+}
+
+.pork-belly p {
+    margin-left: 325px;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
