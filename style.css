@@ -187,6 +187,18 @@ h4 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.pork-collar img {
+    margin-left: 165px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.pork-collar p {
+    margin-left: 325px;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
   
