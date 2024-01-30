@@ -107,9 +107,10 @@
 }
 
 body {
-    min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #FAFDF3;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -186,6 +187,9 @@ h4 {
     position: relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+
 
 
 
