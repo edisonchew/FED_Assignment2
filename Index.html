@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>AEmporiumMall</title>
+
+        <div id="Up"></div>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -43,59 +46,96 @@
                 go-to website <br>for all your shopping needs!</p>    
         </main>
 
-        <h3><u>Categories</u></h3>
-        
         <section id="about" class="about">
             <div class="about">
-                <img src="Images/about.png" alt="" />
+                <img src="Images/about.png" alt="" />       
             </div>
 
-        <section id="best-sellers" class="best-sellers">
-            <div class="best-sellers">
-                <img src="Images/bestSellers.png" alt="" />
-                <p>Best Sellers</p>
+        </section>
+        
+        <h3><u>Categories</u></h3>
+
+        <h4><script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" 
+            type="module"></script> 
+
+            <dotlottie-player src="https://lottie.host/93e2934d-012f-4d34-af0d-1a66085301df/ycEv3y8n7I.json" 
+            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></dotlottie-player></h4>
+
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" 
+            type="module"></script> 
+
+            <dotlottie-player src="https://lottie.host/21f9727e-df4f-4057-bb14-5c625aa5e6e7/cVpNQEDY5P.json" 
+            background="transparent" speed="1" style="width: 300px; height: 300px; margin-left: 850px; margin-top: -320px;" 
+            loop autoplay></dotlottie-player>
+
+        <section id="about" class="container">
+        <div class="row">
+    
+            <div id="best-sellers" class="col-md-3 mb-4">
+            <div class="card">
+                <img src="Images/bestSellers.png" alt="">
+                <div class="card-body">
+                <p class="card-text" style="margin-left: 300px;">Best Sellers</p>
+                </div>
+            </div>
             </div>
 
-        <section id="groceries" class="groceries">
-            <div class="groceries">
-                <img src="Images/groceries.png" alt="" />
-                <a href="Shop.html">Groceries</a>
+            <div id="groceries" class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="Images/groceries.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text" style="margin-left: 750px; margin-top: -30px;">
+                    <a href="Shop.html">Groceries</a></p>
+                    </div>
+            </div>
             </div>
 
-        <section id="homeliving" class="homeliving">
-            <div class="homeliving">
-                <img src="Images/homeliving.png" alt="" />
-                <p>Home & Living</p>
+            <div id="homeliving" class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="Images/homeliving.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text" style="margin-left: 1200px; margin-top: -50px;">Home & Living</p>
+                    </div>
+            </div>
             </div>
 
-        <section id="women" class="women">
-            <div class="women">
-                <img src="Images/womenApparel.png" alt="" />
-                <p>Women's Apparel</p>
+            <div id="womenApparel" class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="Images/womenApparel.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text" style="margin-left: 280px; margin-top: 30px;">Women's Apparel</p>
+                    </div>
+            </div>
             </div>
 
-        <section id="men" class="men">
-            <div class="men">
-                <img src="Images/menApparel.png" alt="" />
-                <p>Men's Apparel</p>
+            <div id="menApparel" class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="Images/menApparel.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text" style="margin-left: 720px; margin-top: -50px;">Men's Apparel</p>
+                    </div>
+            </div>
             </div>
 
-        <section id="appliances" class="appliances">
-            <div class="appliances">
-                <img src="Images/homeAppliances.png" alt="" />
-                <p>Home Appliances</p>
+            <div id="homeAppliances" class="col-md-3 mb-4">
+                <div class="card">
+                    <img src="Images/homeAppliances.png" alt="">
+                    <div class="card-body">
+                    <p class="card-text" style="margin-left: 1200px; margin-top: -55px;">Home Appliances</p>
+                    </div>
             </div>
-                 
-        </section>   
+            </div>
+
+        </section>
+
             
+        <footer>
+            <h5><a href="#Up">Back To Top</a></h5>
+    
+            <h5>&copy;
+            <strong>AEmporiumMall</strong>
+            All Rights Reserved</h5>
+        </footer>
+        
     </body>
-    
-    <footer>
-        <h4><a href="#Up">Back To Top</a></h4>
-
-        <h4>&copy;
-        <strong>AEmporiumMall</strong>
-        All Rights Reserved</h4>
-    </footer>
-    
 </html>

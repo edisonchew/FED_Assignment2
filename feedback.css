@@ -1,0 +1,27 @@
+.e-commerce{
+  background: url('Images/iStock-1371318211-1120x455-c-default.jpg') 
+  no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+}
+
+.e-commerce img {
+  width: 0px;
+  height: auto;
+}
+
+h2 {
+  background-color: #E6E6FA;
+  text-align: center;
+  width: 400px;
+  text-align: center;
+}
+
+.form-container {
+  background-color: #6488EA;
+  color: #fff;
+  padding: 7px;
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+}
