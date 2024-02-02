@@ -147,24 +147,28 @@ h5 {
     justify-content: center;
 }
 
-.pork-belly img {
-    margin-left: 165px;
-    position: relative;
+.pork-belly{
     display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    border: 1mm dotted red;
+}
+
+.pork-belly img {
+    width: 500px;
+    height: 500px;
 }
 
 .pork-belly p {
-    margin-left: 325px;
-    position: relative;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 1mm dotted red;
 }
 
+
 .pork-collar img {
-    margin-left: 165px;
-    position: relative;
+    display: flex;
+    flex-direction: row;
     width: 400px;
     height: 400px;
 }
