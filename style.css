@@ -218,8 +218,9 @@ h5 {
     display: flex;
     width: 450px;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 25px;
+    justify-content: space-evenly;
+    margin: 26px;
+
 }
 
 .porkBelly img {
