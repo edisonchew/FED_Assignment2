@@ -7,50 +7,88 @@
         <title>Shop | AEmporiumMall</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <div id="Up"></div>
     </head>
     <body>
         <div w3-include-html="header.html"></div>
         <script src="w3-include-HTML.js"></script>
 
-        <section id="online-website" class="e-commerce-groceries">
+        <div id="online-website" class="e-commerce-groceries">
             <div class="container">
                 <div class="row">
                     <div class="e-commerce-groceries"></div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section>
-            <div>
-                <h3>
-                    <a href="Index.html" style="text-decoration: none; color: black;">CATEGORIES/</a>
-                    <div>Groceries</div>
-                </h3>
+        <div class="container">
+            <div class="heading">
+                <a href="Index.html"><b>Categories/</b></a>
+                <div><b>Groceries</b></div>
             </div>
-        </section>
+        
 
+            <div class="Groceries">
+                <div class="porkBelly">
+                    <img src="Images/13091176_XL1_20210902.webp" alt="Chef's Pork Premium Frozen Iberico Belly Slice">
+                    <p><b>Chef's Pork Premium Frozen Iberico Belly Slice <br> 250g <br> Brand: Chef'S Pork <br> Price: $12.12</b></p>
+                    <a href="Cart.html">
+                        <button class="itemBtn" onclick="addToCart('porkBelly', 'Chef\'s Pork Premium Frozen Iberico Belly Slice', 12.12)">Add to cart</button>
+                    </a>
+                </div>
 
+                <div class="porkBelly">
+                    <img src="Images/90018585_XL1_20211109.webp" alt="Aw's Market Fresh Australia Pork Belly">
+                    <p><b>Aw's Market Fresh Australia Pork Belly <br> 250g <br> Brand: Aw's Market <br> Price: $9.94</b></p>
+                    <a href="Cart.html">
+                        <button class="itemBtn">Add to cart</button>
+                    </a>
+                </div>
 
-        <section id="pork-belly">
-            <div class="pork-belly">
-                <img src="Images/pork_belly.jpg" alt="Pork Belly" />
-                <p>Pork Belly</p>
+                <div class="porkBelly">
+                    <img src="Images/90094953_XL1_20230427.webp" alt="Meat Affair Korean BBQ Pork Belly">
+                    <p><b>Meat Affair Korean BBQ Pork Belly <br> 250g <br> Brand: Meat Affair <br> Price: $6.50</b></p>
+                    <a href="Cart.html">
+                        <button class="itemBtn">Add to cart</button>
+                    </a>
+                </div>
             </div>
-        </section>
 
-        <!-- <section id="pork-collar" class="pork-collar">
-            <div>
-                <img src="Images/pork_belly.jpg" alt="Pork Collar" />
-                <p>Pork Collar</p>
+            <div class="Groceries">
+                <div class="corn">
+                    <img src="Images/90011402_XL1_20210730.webp" alt="CB Sweet Corn (Grade A)">
+                    <p><b>CB Sweet Corn (Grade A) <br> 1000g <br> Brand: CB <br> Price: $3.86</b></p>
+                    <a href="Cart.html">
+                        <button class="itemBtn">Add to cart</button>
+                    </a>
+                </div>
+
+                <div class="corn">
+                    <img src="Images/90150762_XL1_20221027.webp" alt="Orgo Fresh Royal Yellow Sweet Corn">
+                    <p><b>Orgo Fresh Royal Yellow Sweet Corn <br> 2 pc <br> Brand: Orgo Fresh <br> Price: $4.48</b></p>
+                    <a href="Cart.html">
+                        <button class="itemBtn">Add to cart</button>
+                    </a>
+                </div>
+
+                <div class="corn">
+                    <img src="Images/10768750_XL1.webp" alt="Pasar Baby Corn">
+                    <p><b>Pasar Baby Corn <br> 100g <br> Brand: Pasar <br> Price: $1.21</b></p>
+                    <a href="Cart.html">
+                        <button class="itemBtn">Add to cart</button>
+                    </a>
+                </div>
             </div>
-        </section> -->
+        </div>
+
+        <footer>
+            <h5><a href="#Up">Back To Top</a></h5>
+
+            <h3>&copy; Copyright 
+            <strong>AEmporiumMall</strong>
+            All Rights Reserved</h3>
+        </footer>
+
     </body>
-
-    <footer>
-        <h3><a href="#Up">Back To Top</a></h3>
-
-        <h3>&copy; Copyright 
-        <strong>AEmporiumMall</strong>
-        All Rights Reserved</h3>
-    </footer>
 </html>
