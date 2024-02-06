@@ -14,33 +14,45 @@
         <script src="w3-include-HTML.js"></script>
 
         <h1>Shopping Cart</h1>
-    <ul id="cartItems"></ul>
+        <ul id="cartItems"></ul>
 
-    <script>
-        const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-        const cartList = document.getElementById('cartItems');
+        <script>
+            const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+            const cartList = document.getElementById('cartItems');
 
-        cartItems.forEach(item => {
-            const listItem = document.createElement('li');
-            const itemImage = document.createElement('img');
-            itemImage.src = item.image;
-            itemImage.alt = item.name;
-            listItem.appendChild(itemImage);
+            cartItems.forEach(item => {
+                const listItem = document.createElement('li');
 
-            const itemInfo = document.createElement('div');
-            itemInfo.innerHTML = `<strong>${item.name}</strong> - Quantity: ${item.quantity} - Price: $${item.price.toFixed(2)}`;
-            listItem.appendChild(itemInfo);
+                // Create anchor tag for linking the image
+                const imageLink = document.createElement('a');
+                imageLink.href = 'Shop.html';  // Replace with the actual product page URL
+                imageLink.target = '_blank';  // Opens the link in a new tab/window
 
-            const quantityInput = document.createElement('input');
-            quantityInput.type = 'number';
-            quantityInput.value = item.quantity;
-            quantityInput.min = 1;
-            quantityInput.max = 10;
-            listItem.appendChild(quantityInput);
+                // Create image element
+                const itemImage = document.createElement('img');
+                itemImage.src = item.image;
+                itemImage.alt = item.name;
 
-            cartList.appendChild(listItem);
-        });
-    </script>
+                // Append image to the anchor tag
+                imageLink .appendChild(itemImage);
+
+                // Append the anchor tag to the list item
+                listItem.appendChild(imageLink);
+
+                const itemInfo = document.createElement('div');
+                itemInfo.innerHTML = `<strong>${item.name}</strong> Quantity: ${item.quantity} - Price: $${item.price.toFixed(2)}`;
+                listItem.appendChild(itemInfo);
+
+                const quantityInput = document.createElement('input');
+                quantityInput.type = 'number';
+                quantityInput.value = item.quantity;
+                quantityInput.min = 1;
+                quantityInput.max = 10;
+                listItem.appendChild(quantityInput);
+
+                cartList.appendChild(listItem);
+            });
+        </script>
 
     </body>
 </html>
