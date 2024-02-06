@@ -4,43 +4,111 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AEmporiumMall</title>
-        <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+
+        <title>Cart | AEmporiumMall</title>
+
+        <div id="Up"></div>
+        <link rel="stylesheet" href="cart.css">
+
     </head>
+
     <body>
         <div w3-include-html="header.html"></div>
         <script src="w3-include-HTML.js"></script>
+     
+        <section id="e-commerce" class="e-commerce">
+        <div class="container">
+            <div class="row">
+                <img src="Images/eCommerce.png" alt="" />
+            </div>
+        </div>
 
-        <h1>Shopping Cart</h1>
-    <ul id="cartItems"></ul>
+       </section>
 
-    <script>
-        const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-        const cartList = document.getElementById('cartItems');
+       <h2 style="margin-left: 80px; padding: 20px;">Shopping Cart</h2>
 
-        cartItems.forEach(item => {
-            const listItem = document.createElement('li');
-            const itemImage = document.createElement('img');
-            itemImage.src = item.image;
-            itemImage.alt = item.name;
-            listItem.appendChild(itemImage);
+       <hr>
 
-            const itemInfo = document.createElement('div');
-            itemInfo.innerHTML = `<strong>${item.name}</strong> - Quantity: ${item.quantity} - Price: $${item.price.toFixed(2)}`;
-            listItem.appendChild(itemInfo);
+       <div class="firstItem">
+        <img src="Images/90094953_XL1_20230427.webp" alt="" />
+            <h3>Meat Affair Korean BBQ Pork Belly 250g</h3>
+            <h4 style="margin-left: 630px; margin-top: -20px;">Qty: 2
+            <br><br>$13.00</h4>
+            <p>Groceries</p>
+       </div>
 
-            const quantityInput = document.createElement('input');
-            quantityInput.type = 'number';
-            quantityInput.value = item.quantity;
-            quantityInput.min = 1;
-            quantityInput.max = 10;
-            listItem.appendChild(quantityInput);
+       <div class="secondItem">
+        <img src="Images/10768750_XL1.webp" alt="" />
+            <h3>Pasar Baby Corn</h3>
+            <h4 style="margin-left: 630px; margin-top: -20px;">Qty: 3
+                <br><br>$3.60</h4>
+            <p>Groceries</p>
+       </div>
 
-            cartList.appendChild(listItem);
-        });
-    </script>
+       <div class="thirdItem">
+        <img src="Images/13091176_XL1_20210902.webp" alt="" />
+        <h3>Chef's Pork Premium Frozen Iberico Belly <br> Slice 250g</h3>
+        <h4 style="margin-left: 625px; margin-top: -30px;">Qty: 1
+            <br><br>$12.12</h4>
+        <p>Groceries</p>
+       </div>
 
+       <div class="cardDetails">
+        <h3>Card Details</h3>
+        <h4>Card type</h4>
+
+        <div class="cardType">
+            <img src="Images/MasterCard.png" alt="" />
+            <img src="Images/Visa.png" alt="" />
+
+            <h3>Name on Card</h3>
+            <textarea name="textarea"
+            rows="1" cols="43" id="name"
+            placeholder="Cardholder's Name"></textarea>
+
+            <h3>Card Number</h3>
+            <textarea name="textarea"
+            rows="1" cols="43" id="number"
+            placeholder="Card Number"></textarea>
+
+            <h3>Expiration Date</h3>
+            <textarea name="textarea"
+            rows="1" cols="43" id="expire"
+            placeholder="MM/YYYY"></textarea>
+
+            <h4>CVV</h4>
+            <textarea name="textarea"
+            rows="1" cols="43" id="cvv"
+            placeholder="CVV"></textarea>
+
+            <hr>
+
+            <h3>Subtotal</h3>
+            <h4 style="margin-left: 300px; margin-top: -37px;">$28.72</h4>
+
+            <h3>Shipping</h3>
+            <h4 style="margin-left: 300px; margin-top: -35px;" >$3.25</h4>
+
+            <h3>GST</h3>
+            <h4 style="margin-left: 300px; margin-top: -37px;">$1.99</h4>
+
+            <h3>Total</h3>
+            <h4 style="margin-left: 300px; margin-top: -35px;">$33.96</h4>
+
+            <button type="button" onclick="grabListItem()" id="btnSubmit"
+            name="btnSubmit">CHECK OUT</button>
+        
+        </div>
+       </div>
+
+       <footer>
+        <h5><a href="#Up">Back To Top</a></h5>
+
+        <h6>&copy; Copyright
+        <strong>AEmporiumMall</strong>
+        All Rights Reserved</h6>
+    </footer>
+
+    
     </body>
 </html>
