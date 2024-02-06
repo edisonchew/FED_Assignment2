@@ -145,6 +145,8 @@ h4 {
 h5 {
     text-align: center;
     justify-content: center;
+    font-weight: normal;
+    font-size: 12px;
 }
 
 .pork-belly{

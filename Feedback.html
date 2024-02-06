@@ -4,7 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>AEmporiumMall</title>
+
+        <title>Feedback | AEmporiumMall</title>
+
+        <div id="Up"></div>
         <link rel="stylesheet"  type="text/css"
         href="feedback.css">
     </head>
@@ -22,14 +25,101 @@
 
        </section>
 
-       <h2>Feedback Form</h2>
+       <h2 style="text-align: center; margin-left: 380px;
+       padding: 20px;"
+       >Feedback Form</h2>
+
        <div class="form-container">
         <form id="fdbkFrm">
-            
+            <p>Rate Your Shopping Experience</p>
+            <div id="shopping-experience" required>
+                <button type="button"
+                onclick="e(1)">1</button>
 
-        
+                <button type="button" 
+                onclick="e(2)">2</button>
+
+                <button type="button"
+                onclick="e(3)">3</button>
+
+                <button type="button"
+                onclick="e(4)">4</button>
+
+                <button type="button" 
+                onclick="e(5)">5</button>
+            </div>
+
+            <p>Assess Website's User-Friendliness 
+                & Product Finding</p>
+
+            <textarea name="textarea" 
+            rows="5" cols="43" id="assess"
+            placeholder="Type your message here..."
+            ></textarea>
+
+            <p>Rate Your Checkout Process</p>
+            <div id="checkout-experience" required>
+                <button type="button"
+                onclick="p(1)">1</button>
+
+                <button type="button" 
+                onclick="p(2)">2</button>
+
+                <button type="button" 
+                onclick="p(3)">3</button>
+
+                <button type="button" 
+                onclick="p(4)">4</button>
+
+                <button type="button" 
+                onclick="p(5)">5</button>
+            </div>
+
+            <p>Express Your Opinion On Our Return & 
+                Refund Processes</p>
+
+            <textarea name="textarea" 
+            rows="5" cols="43" id="express"
+            placeholder="Type your message here..."
+            ></textarea>
+
+            <p>Additional Comments</p>
+
+            <textarea name="textarea" 
+            rows="5" cols="43" id="comments"
+            placeholder="Type your message here..."
+            ></textarea>
+
+            <button type="button" 
+            style="background-color: #594696; color:#fff; 
+            padding: 10px; width: 130px; margin-left: 410px; 
+            margin-top: 30px; font-size: 15px;" 
+            onclick="grabListItem()" id="btnSubmit"
+            >Submit</button>
+                   
         </form>
        </div>
+
+       <div id="experience-rating">
+        <p>Shopping Experience: <span id="eRating-value">Not selected</span></p>
+       </div>
+
+       <div id="process-rating">
+        <p>Checkout Process: <span id="pRating-value">Not selected</span></p>
+       </div>
+
+       <div id="details" align="center"></div>
+
+       <script src="script.js"></script>
+       <script src="feedback.js"></script>
+
+       <footer>
+        <h5><a href="#Up">Back To Top</a></h5>
+
+        <h3>&copy; Copyright
+        <strong>AEmporiumMall</strong>
+        All Rights Reserved</h3>
+    </footer>
 
     </body>
 </html>

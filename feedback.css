@@ -12,16 +12,51 @@
 
 h2 {
   background-color: #E6E6FA;
-  text-align: center;
-  width: 400px;
-  text-align: center;
+  width: 700px;
 }
 
 .form-container {
   background-color: #6488EA;
   color: #fff;
   padding: 7px;
-  width: 150px;
-  height: 50px;
+  width: 725px;
+  height: 910px;
   font-size: 22px;
+  margin-left: 380px;
+  margin-top: -20px;
+  justify-content: center;
+  text-align: center;
 }
+
+p {
+  text-align: center;
+  font-size: 19px;
+}
+
+textarea::placeholder {
+  font-size: 15px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+button:hover {
+  color: #003459;
+}
+
+input[type="text"] {
+  font-size: 13px;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+
