@@ -38,4 +38,3 @@ function addToCart(itemId, itemName, itemPrice, itemImage) {
     localStorage.setItem('cart', JSON.stringify(cart));
     alert('Item added to cart!');
 }
-

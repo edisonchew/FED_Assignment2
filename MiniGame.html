@@ -6,11 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>AEmporiumMall</title>
         <link rel="stylesheet" href="normalize.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="minigame.css">
     </head>
     <body>
         <div w3-include-html="header.html"></div>
         <script src="w3-include-HTML.js"></script>
+
+
+        <h3>Welcome to AEmporiumMall's MiniGame</h3>
+
+        <div class="mainbox" id="mainbox">
+            <div class="box" id="box">
+                <div class="box1">
+                    <span class="font span1"><h5>Discount Vouchers</h5></span>
+                    <span class="font span2"><h5>40 Loyalty Points</h5></span>
+                    <span class="font span3"><h5>$30 off purchase</h5></span>
+                    <span class="font span4"><h5>Gift card</h5></span>
+                    <span class="font span5"><h5>Try Again Next Time</h5></span>
+                </div>
+                <div class="box2">
+                    <span class="font span1"><h5>VIP Membership</h5></span>
+                    <span class="font span2"><h5>$50 off purchase</h5></span>
+                    <span class="font span3"><h5>70 Loyalty Points</h5></span>
+                    <span class="font span4"><h5>Discount Vouchers</h5></span>
+                    <span class="font span5"><h5>Try Again Next Time</h5></span>
+                </div>
+            </div>
+            <button class="spin" onclick="spin()">SPIN</button>
+        </div>
+
+
+        <script src="minigame.js"></script>
 
     </body>
 </html>
