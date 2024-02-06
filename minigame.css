@@ -1,10 +1,11 @@
-
-
 .mainbox {
-    position: relative;
+    position: absolute;
     width: 500px;
     height: 500px;
     margin-top: 50px;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
 }
 
 .mainbox::after {
@@ -187,4 +188,29 @@ span {
     font-size: 22px;
     cursor: pointer;
     z-index: 1000;
+}
+
+.spin:active {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.mainbox.animate::after {
+    animation: animateArrow 0.7s ease infinite;
+}
+
+@keyframes animateArrow {
+    50% {
+        right: -50px;
+    }
+}
+
+@keyframes spin-wheel {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
