@@ -7,6 +7,7 @@
         <title>AEmporiumMall</title>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="minigame.css">
+        <div id="Up"></div>
     </head>
     <body>
         <div w3-include-html="header.html"></div>
@@ -18,7 +19,7 @@
         <div class="mainbox" id="mainbox">
             <div class="box" id="box">
                 <div class="box1">
-                    <span class="font span1"><h5>Discount Vouchers</h5></span>
+                    <span class="font span1" id="DiscountVoucher"><h5>Discount Vouchers</h5></span>
                     <span class="font span2"><h5>40 Loyalty Points</h5></span>
                     <span class="font span3"><h5>$30 off purchase</h5></span>
                     <span class="font span4"><h5>Gift card</h5></span>
@@ -35,6 +36,27 @@
             <button class="spin" onclick="spin()">SPIN</button>
         </div>
 
+        <section>
+            <div class="description">
+                <h3>Description of the prizes</h3>
+                <ul>
+                    <li><b>Discount Vouchers</b> - Between 5% to 20% on different product categories or sitewide</li>
+                    <li><b>40/70 Loyalty Points</b> - Add more points to convert them to perks</li>
+                    <li><b>$30 Off Purchase</b> - Must <strong>MINIMALLY</strong> spend $50 in order to get this discount, else the prize will be counted as <strong>INVALID</strong></li>
+                    <li><b>$50 Off Purchase</b> - Must <strong>MINIMALLY</strong> spend $70 in order to get this discount, else the prize will be counted as <strong>INVALID</strong></li>
+                    <li><b>Gift Card</b> - Ranges from $10 - $50, amount is in random</li>
+                    <li><b>VIP Membership</b> - Temporary Membership with free shipping and members-only sales, <strong>*2 DAYS ONLY*</strong></li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <h5><a href="#Up">Back To Top</a></h5>
+
+            <h3>&copy; Copyright 
+            <strong>AEmporiumMall</strong>
+            All Rights Reserved</h3>
+        </footer>
 
         <script src="minigame.js"></script>
 
