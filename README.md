@@ -7,8 +7,15 @@ In this assignment2, me (Edison) and my partner, Zhen Kang has decided to create
 
 # Technologies Used
 - JavaScript
+    - The project uses JavaScript (minigame.js) for our minigame (spin the wheel).
+    - The project uses JavaScript (feedback.js & script.js)for the feedback form.
 
+- 
 
 # Testing
+1. Home page (Index.html)
+    i. Click on the Groceries
+    ii. It will direct you to the page where it shows the groceries
+    ii. 
 
 # Credits

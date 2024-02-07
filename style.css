@@ -142,6 +142,11 @@ nav ul ul a {
     color: #333; /* Adjust as needed */
 }
 
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
 h2 {
     margin-left: 230px;
     padding: 60px;
