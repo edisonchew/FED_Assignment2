@@ -39,24 +39,26 @@ function spin() {
         VipMembership[0],
     ]);
 
+    let SelectedItem;
+
     // Display the prize won
-    if (DiscountVoucher.includes(results[0])) SelectItem = "Discount Vouchers";
-    if (LoyaltyPoint.includes(results[0])) SelectItem = "40 Loyalty Points", "70 Loyalty Points";
-    if (OffPurchase.includes(results[0])) SelectItem = "$30 Off purchase", "$50 0ff purchase";
-    if (GiftCard.includes(results[0])) SelectItem = "Gift card";
-    if (TryAgain.includes(results[0])) SelectItem = "Try Again Next Time";
-    if (VipMembership.includes(results[0])) SelectItem = "VIP Membership";
+    if (DiscountVoucher.includes(results[0])) SelectedItem = "Discount Vouchers";
+    else if (LoyaltyPoint.includes(results[0])) SelectedItem = "40 Loyalty Points", "70 Loyalty Points";
+    else if (OffPurchase.includes(results[0])) SelectedItem = "$30 Off purchase", "$50 0ff purchase";
+    else if (GiftCard.includes(results[0])) SelectedItem = "Gift card";
+    else if (TryAgain.includes(results[0])) SelectedItem = "Try Again Next Time";
+    else if (VipMembership.includes(results[0])) SelectedItem = "VIP Membership";
 
 
     // Apply rotation animation
     box.style.setProperty("transition", "all ease 5s");
-    box.style.transform = "rotate(" + results[0] + "deg)";
-    element.classList.remove("animate");
+    box.style.transform = "rotate(" + results[0] + "deg)"; 
 
     setTimeout(function() {
-        alert("You Won: " + SelectItem)
+        alert('You Won: ' + SelectedItem)
         box.style.setProperty("transition", "initial");
         box.style.transform = "rotate(90deg)";
+        spinButton.disabled = false;
     }, 6000);
 } 
 

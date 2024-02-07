@@ -196,7 +196,8 @@ h5 {
     width: 450px;
     flex-direction: column;
     margin: 10px 0 0 50px;
-    border: 1mm dotted red;
+    border: 1mm solid black;
+    margin-left: 38px;
 }
 
 .container a {
@@ -214,15 +215,6 @@ h5 {
     font-family: serif;
     font-size: 32px;
     text-align: center;
-}
-
-.porkBelly {
-    display: flex;
-    width: 450px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin: 26px;
-
 }
 
 .porkBelly img {
@@ -244,17 +236,12 @@ h5 {
     display: flex;
     width: 450px;
     flex-direction: column;
+    justify-content: space-evenly;
     margin: 10px 0 0 50px;
-    border: 1mm dotted red;
+    border: 1mm solid black;
+    margin-left: 38px;
 }
 
-.corn {
-    display: flex;
-    width: 450px;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 25px;
-}
 
 .corn img {
     display: flex;
