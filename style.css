@@ -142,6 +142,28 @@ nav ul ul a {
     color: #333; /* Adjust as needed */
 }
 
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Change to column layout */
+        align-items: flex-start; /* Align items to the start */
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Add margin between list items */
+    }
+
+    nav ul ul {
+        position: static; /* Change position to static */
+        display: none; /* Hide dropdown by default */
+    }
+
+    nav ul li:hover ul {
+        display: block; /* Show dropdown on hover */
+    }
+}
+
 h1 a {
     text-decoration: none;
     color: black;
@@ -257,6 +279,9 @@ h5 {
 .corn p {
     text-align: center;
 }
+
+
+
 
 
 
