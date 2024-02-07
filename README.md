@@ -14,8 +14,16 @@ In this assignment2, me (Edison) and my partner, Zhen Kang has decided to create
 
 # Testing
 1. Home page (Index.html)
-    i. Click on the Groceries
-    ii. It will direct you to the page where it shows the groceries
-    ii. 
+    1. Click on the Groceries
+    2. It will direct you to the page where it shows the groceries
+
+2. Groceries page (Groceries.html)
+    1. Click on the add to cart of the first pork belly item (row 1, column 1)
+    2. It will direct you to the cart page (Cart.html)
 
 # Credits
+
+## Content
+
+## Media
+- The groceries item in the Groceries.html were all taken from https://www.fairprice.com.sg/product/chef-s-pork-premium-frozen-iberico-belly-slice-250g-13091176
