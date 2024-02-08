@@ -55,4 +55,35 @@ h3 {
   font-weight: normal;
 }
 
+@media (max-width: 600px) {
+  .split {
+    flex: 1 100%;
+    flex-basis: 100%; /* for every item */
+    flex-grow: inherit;
+    margin-left: 50px;
+  }
+
+  .form-container {
+    margin-left: 50px;
+    width: 500px;
+  }
+
+  textarea {
+    width: 470px;
+  }
+
+  h2 {
+    width: 475px;
+    justify-content: center;
+    position: relative;
+    left: -330px;
+    height: 5px;
+  }
+
+  .e-commerce {
+    width: 700px;
+  }
+  
+}
+
 

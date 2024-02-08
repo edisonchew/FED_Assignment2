@@ -221,10 +221,12 @@ span {
 }
 
 
-@media only screen and (max-width: 767px) {
-    .h3 {
-        justify-content: center;
+@media screen  and (max-width: 420px) {
+    p {
+        Font-size: small;
     }
+}
+
 
     .mainbox {
         margin: 20px;
@@ -237,7 +239,7 @@ span {
 
     .box {
         width: 100%;
-        margin-top: 350px;
+        margin-top: 200px;
         justify-content: center;
     }
 
@@ -248,7 +250,7 @@ span {
     }
 
     .spin {
-        margin-top: 350px;
+        margin-top: 200px;
         max-width: 500px;
     }
 
@@ -256,4 +258,4 @@ span {
         margin-top: 900px;
         justify-content: center;
     }
-}
+
