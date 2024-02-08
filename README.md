@@ -7,19 +7,27 @@ In this assignment2, me (Edison) and my partner, Zhen Kang has decided to create
 Figma Link: https://www.figma.com/file/LRh9SocsBTbPiMlrh3mKOZ/FED_Assignment2?type=design&node-id=0%3A1&mode=design&t=r0WpcQ5oTTIZtmyR-1
 This is the link to our wireframe for this project
 # Features
-- Feature 1 - We have a Home page, which consists of a short introduction of our eCommerce website as well as the different categories of items we have at AEmporiumMall website.
+- Feature 1 - We have a Home page, which consists of a short introduction of our eCommerce website as well as the different categories of items we have at AEmporiumMall website
+
+- Feature 2 - We have the Shop button to hover over to find out the various categories such as Groceries, Best Sellers, Home & Living etc. Only the Groceries button works, hence the Groceries page (Groceries.html)
  
-- Feature 2 - We have a Groceries page (Groceries.html) which has the types of groceries we offer on our website (I just put up a few of the items).
+- Feature 3 - We have a Groceries page (Groceries.html) which has the types of groceries we offer on our website (I just put up a few of the items)
 
-- Feature 3 - We have a Minigame page (MiniGame.html) which consists of a spin the wheel game where there is discounts and many other perks to be won.
+- Feature 4 - We have a Minigame page (MiniGame.html) which consists of a spin the wheel game where there is discounts and many other perks to be won
 
-- Feature 4 - 
+- Feature 5 - We have a Cart page (Cart.html). On the left is the display of items that the user/customer have added to the Shopping Cart. It shows the name of product, category, quantity and the price. On the right,
+  it allows the user/customer to enter their card details and to choose their card type. Once added, the total price will automatically be deducted from their added card once the user clicks "CHECK OUT"
+
+- Feature 6 - We have a Feedback page (Feedback.html) where it gathers user/customer shopping experience when using this E-Commerce website and the checkout process. Both results will be displayed below the form
+  once one of the five buttons is being clicked. The rest takes in written feedback on Website's User-Friendliness & Product Finding, Opinion on Return & Refund Processes and any other Additonal Comments. Once the
+  user clicks submit, the comments will be displayed out, together with the rating of Shopping Experience & Checkout Process
 
 # Technologies Used
 - JavaScript
-    - The project uses JavaScript (minigame.js) for our minigame (spin the wheel).
-    - The project uses JavaScript (feedback.js & script.js)for the feedback form.
+    - The project uses JavaScript (minigame.js) for our minigame (spin the wheel)
+    - The project uses JavaScript (feedback.js & script.js) for the feedback form
     - The project uses JavaScript (w3-include-HTML.js) for the header of all the pages, the title and the navigation bar
+    - The project uses Javascript (cart.js) to display Card Details, together with the amount to be deducted, remaining balance and a Thank You message
 
 - HTML
     - Index.html
@@ -53,6 +61,15 @@ This is the link to our wireframe for this project
 - I encountered one bug/problem when I am testing my spin the wheel game. I realised that after spinning the wheel, the result displayed and the result on the wheel is different.
 
 - After adding the item to cart, the item is not able to be linked to the cart page which shows the item, quantity, price that was added to the cart, therefore, after clicking on the add to cart, it will just direct you to the cart page.
+
+5. Cart page (Cart.html)
+   1. Key in Name, Card Number, Expiration Date & CVV and click "CHECK OUT"
+   2. Displays the user's card details, with the Card's balance, amount deducted and remaining balance
+  
+6. Feedback page (Feedback.html)
+   1. Click on any one of the five buttons and it displays at the bottom of the form
+   2. Write all your comments in the textbox
+   3. CLick on the Submit button to display the two numbers and the written comments below the form
 
 # Credits
 
