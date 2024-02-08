@@ -10,13 +10,16 @@ This is the link to our wireframe for this project
 - Feature 1 - We have a Home page, which consists of a short introduction of our eCommerce website as well as the different categories of items we have at AEmporiumMall website.
  
 - Feature 2 - We have a Groceries page (Groceries.html) which has the types of groceries we offer on our website (I just put up a few of the items).
+
+- Feature 3 - We have a Minigame page (MiniGame.html) which consists of a spin the wheel game where there is discounts and many other perks to be won.
+
+- Feature 4 - 
+
 # Technologies Used
 - JavaScript
     - The project uses JavaScript (minigame.js) for our minigame (spin the wheel).
     - The project uses JavaScript (feedback.js & script.js)for the feedback form.
     - The project uses JavaScript (w3-include-HTML.js) for the header of all the pages, the title and the navigation bar
-
-- 
 
 # Testing
 1. Home page (Index.html)
