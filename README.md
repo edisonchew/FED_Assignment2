@@ -21,6 +21,21 @@ This is the link to our wireframe for this project
     - The project uses JavaScript (feedback.js & script.js)for the feedback form.
     - The project uses JavaScript (w3-include-HTML.js) for the header of all the pages, the title and the navigation bar
 
+- HTML
+    - Index.html
+    - Groceries.html
+    - MiniGame.html
+    - Cart.html
+    - Feedback.html
+    - header.html
+    
+- CSS
+    - style.css
+    - feedback.css
+    - cart.css
+    - minigame.css
+    - normalize.css
+
 # Testing
 1. Home page (Index.html)
     1. Click on the Groceries
@@ -32,6 +47,8 @@ This is the link to our wireframe for this project
 
 3. Minigame page (Minigame.html)
     1. Try spinning the wheel
+
+4. By hovering over the shop on our navigation bar, there is a dropdown list of the different categories. Click on groceries and it will direct you to the groceries page (Groceries.html)
 
 - I encountered one bug/problem when I am testing my spin the wheel game. I realised that after spinning the wheel, the result displayed and the result on the wheel is different.
 
