@@ -2,7 +2,7 @@
 In this assignment2, me (Edison) and my partner, Zhen Kang has decided to create an eCommerce website. We came up with our own brand name, AEmporiumMall, which sells all kinds of items which includes groceries, apparels etc..(just like a mini-mart). We went for a minimalistic theme for our background of our website. Therefore, we hope to attract more customers with our features and also enjoy using our website to shop for the things that they want.
 
 # Design Process
-
+The design process is minimalistic, with some pictures added to show our products that we have at our E-Commerce website. The Feedback and Cart page has similar colours like light purple to ensure consistency througout the website and blend with the overall backrgound of the website. Mainly, I've added light colours to make it more appealing and attractive for customers to come and shop at our E-Commerce website. This website is for everyone from all walks of life, be it for the youths, adults as well as the tech-savvy elderlies. The website aims to achieve convenienve and accessibility for everyone as some might be busy and do not have time allocated to going to the physical supermarket. Everyone can just order from our countless categories and get what they need at the comfort of their home. As a user type, users can click on Add to Cart that brings them to the Cart Page, where they can check for their added items and enter their card details right beside their added items. The transaction is immediately made once the user clicks CHECK OUT button
 
 Figma Link: https://www.figma.com/file/LRh9SocsBTbPiMlrh3mKOZ/FED_Assignment2?type=design&node-id=0%3A1&mode=design&t=r0WpcQ5oTTIZtmyR-1
 This is the link to our wireframe for this project
