@@ -65,4 +65,28 @@ This is the link to our wireframe for this project
 
 - The big image in the Groceries.html is taken from https://ecocart.io/zero-waste-grocery-shopping/
 
+- Best Sellers Image: https://www.google.com.sg/search?q=best+sellers+image&tbm=isch&ved=2ahUKEwiHnbOTxPODAxUBmGMGHZ24B6YQ2-cCegQIABAA&oq=best+sellers+image&gs_lcp=CgNpbWcQAzIFCAAQgAQ6CggAEIAEEIoFEEM6BwgAEIAEEBhQAFjDB2D-CGgAcAB4AIABQYgB3QKSAQE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=4LOvZYctgbCO4w-d8Z6wCg&bih=746&biw=1696&hl=en#imgrc=NxlNbFz7urqdNM
+
+- E-Commerce products:  https://snappyfly.com/what-to-take-note-when-listing-food-products-online
+
+- Big Image in index.html: https://www.crazydomains.com.au/learn/ecommerce-products-to-sell/
+
+- Groceries Image from index.html: https://www.google.com.sg/search?sca_esv=600731789&dcr=0&q=grocery+images&tbm=isch&source=lnms&sa=X&ved=2ahUKEwi3lorvxPODAxXGS2wGHRCvDU4Q0pQJegQIDRAB&biw=1696&bih=746&dpr=1.13#imgrc=RpOKJajupCzBdM
+
+- Home & Living from index.html: https://www.hindustantimes.com/lifestyle/art-culture/mastering-the-art-of-luxurious-living-6-expert-tips-for-designing-your-dream-home-101689401319992.html
+
+- Women's Apparel from index.html: https://www.apparelsearch.com/apparel/womens/womens_apparel.htm
+
+- Home Appliances from index.html: https://retail.economictimes.indiatimes.com/news/consumer-durables-and-information-technology/consumer-electronics/venus-home-appliances-strengthens-product-portfolio-unveils-electric-ovens/94146979
+
+- Yellow Laptop Lottie Animation: https://accounts.lottiefiles.com/login?return_to=https%3A%2F%2Fapp.lottiefiles.com%2Fanimation%2F1dc308b9-729a-4a47-ad27-574e91dd76ae%3Fchannel%3Dweb%26source%3Dpublic-animation%26panel%3Dembed
+
+- Blue Montior Lottie Animation: https://app.lottiefiles.com/animation/f68ed634-d3b2-4f91-9fdb-3d03cde6728a?channel=web&source=public-animation&panel=embed
+
+- VISA image from Cart.html: https://www.indiamart.com/proddetail/visa-consultancy-services-3032044673.html
+
+- MasterCard image from Cart.html: https://www.svgrepo.com/svg/508703/mastercard
+
+
+
 
