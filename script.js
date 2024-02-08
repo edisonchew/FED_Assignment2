@@ -19,22 +19,3 @@ btnSubmit.addEventListener('click', function (e) {
   document.getElementById("details").innerHTML = fdbk;
 
 });
-
-
-
-
-function addToCart(itemId, itemName, itemPrice, itemImage) {
-    let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    const quantity = document.getElementById(`quantity_${itemId}`).valueAsNumber;
-
-    const existingItem = cart.find(item => item.id === itemId);
-
-    if (existingItem) {
-        existingItem.quantity += quantity;
-    } else {
-        cart.push({ id: itemId, name: itemName, price: itemPrice, quantity: quantity, image: itemImage });
-    }
-
-    localStorage.setItem('cart', JSON.stringify(cart));
-    alert('Item added to cart!');
-}
