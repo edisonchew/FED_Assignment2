@@ -1,5 +1,5 @@
 # FED_Assignment2 (AEmporiumMall - eCommmerce)
-In this assignment2, me (Edison) and my partner, Zhen Kang has decided to create an eCommerce website. We came up with our own brand name, AEmporiumMall, which sells all kinds of items which includes groceries, apparels etc..(just like a mini-mart).
+In this assignment2, me (Edison) and my partner, Zhen Kang has decided to create an eCommerce website. We came up with our own brand name, AEmporiumMall, which sells all kinds of items which includes groceries, apparels etc..(just like a mini-mart). We went for a minimalistic theme for our background of our website. Therefore, we hope to attract more customers with our features and also enjoy using our website to shop for the things that they want.
 
 # Design Process
 
