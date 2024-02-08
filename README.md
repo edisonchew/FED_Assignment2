@@ -7,7 +7,9 @@ In this assignment2, me (Edison) and my partner, Zhen Kang has decided to create
 Figma Link: https://www.figma.com/file/LRh9SocsBTbPiMlrh3mKOZ/FED_Assignment2?type=design&node-id=0%3A1&mode=design&t=r0WpcQ5oTTIZtmyR-1
 This is the link to our wireframe for this project
 # Features
-
+- Feature 1 - We have a Home page, which consists of a short introduction of our eCommerce website as well as the different categories of items we have at AEmporiumMall website.
+ 
+- Feature 2 - We have a Groceries page (Groceries.html) which has the types of groceries we offer on our website (I just put up a few of the items).
 # Technologies Used
 - JavaScript
     - The project uses JavaScript (minigame.js) for our minigame (spin the wheel).
