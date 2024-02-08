@@ -58,10 +58,6 @@ This is the link to our wireframe for this project
 
 4. By hovering over the shop on our navigation bar, there is a dropdown list of the different categories. Click on groceries and it will direct you to the groceries page (Groceries.html)
 
-- I encountered one bug/problem when I am testing my spin the wheel game. I realised that after spinning the wheel, the result displayed and the result on the wheel is different.
-
-- After adding the item to cart, the item is not able to be linked to the cart page which shows the item, quantity, price that was added to the cart, therefore, after clicking on the add to cart, it will just direct you to the cart page.
-
 5. Cart page (Cart.html)
    1. Key in Name, Card Number, Expiration Date & CVV and click "CHECK OUT"
    2. Displays the user's card details, with the Card's balance, amount deducted and remaining balance
@@ -70,6 +66,11 @@ This is the link to our wireframe for this project
    1. Click on any one of the five buttons and it displays at the bottom of the form
    2. Write all your comments in the textbox
    3. CLick on the Submit button to display the two numbers and the written comments below the form
+
+- I encountered one bug/problem when I am testing my spin the wheel game. I realised that after spinning the wheel, the result displayed and the result on the wheel is different.
+
+- After adding the item to cart, the item is not able to be linked to the cart page which shows the item, quantity, price that was added to the cart, therefore, after clicking on the add to cart, it will just direct you to the cart page.
+
 
 # Credits
 
@@ -103,7 +104,3 @@ This is the link to our wireframe for this project
 - VISA image from Cart.html: https://www.indiamart.com/proddetail/visa-consultancy-services-3032044673.html
 
 - MasterCard image from Cart.html: https://www.svgrepo.com/svg/508703/mastercard
-
-
-
-
