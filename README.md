@@ -25,6 +25,13 @@ This is the link to our wireframe for this project
     1. Click on the add to cart of the first pork belly item (row 1, column 1)
     2. It will direct you to the cart page (Cart.html)
 
+3. Minigame page (Minigame.html)
+    1. Try spinning the wheel
+
+- I encountered one bug/problem when I am testing my spin the wheel game. I realised that after spinning the wheel, the result displayed and the result on the wheel is different.
+
+- After adding the item to cart, the item is not able to be linked to the cart page which shows the item, quantity, price that was added to the cart, therefore, after clicking on the add to cart, it will just direct you to the cart page.
+
 # Credits
 
 ## Content
@@ -33,4 +40,7 @@ This is the link to our wireframe for this project
 - The groceries item in the Groceries.html were all taken from https://www.fairprice.com.sg/product/chef-s-pork-premium-frozen-iberico-belly-slice-250g-13091176
 
 - The arrow icon picture of our minigame (Spin The Wheel) was taken from https://www.iconfinder.com/icons/6253729/arrow_arrows_left_outline_rounded_icon
+
+- The big image in the Groceries.html is taken from https://ecocart.io/zero-waste-grocery-shopping/
+
 
