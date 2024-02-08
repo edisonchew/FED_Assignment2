@@ -214,9 +214,9 @@ span {
 }
 
 .description ul li {
-    padding: 0; /* Remove default padding */
-    margin: 0 auto; /* Center the list horizontally */
-    width: fit-content; /* Set the width to fit the content */
+    padding: 0; 
+    margin: 0 auto; 
+    width: fit-content; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -227,7 +227,6 @@ span {
     }
 
     .mainbox {
-        /* Adjust styles for the main box on mobile */
         margin: 20px;
     }
 
@@ -237,7 +236,6 @@ span {
 
 
     .box {
-        /* Adjust styles for the box on mobile */
         width: 100%;
         margin-top: 350px;
         justify-content: center;
@@ -245,19 +243,16 @@ span {
 
     .box1,
     .box2 {
-        /* Adjust styles for the box1 and box2 on mobile */
         flex-direction: column;
         align-items: center;
     }
 
     .spin {
-        /* Adjust styles for the spin button on mobile */
         margin-top: 350px;
         max-width: 500px;
     }
 
     .description {
-        /* Adjust styles for the description section on mobile */
         margin-top: 900px;
         justify-content: center;
     }

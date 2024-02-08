@@ -28,7 +28,7 @@ This is the link to our wireframe for this project
     - Cart.html
     - Feedback.html
     - header.html
-    
+
 - CSS
     - style.css
     - feedback.css
@@ -56,7 +56,7 @@ This is the link to our wireframe for this project
 
 # Credits
 
-## Content
+## Content 
 
 ## Media
 - The groceries item in the Groceries.html were all taken from https://www.fairprice.com.sg/product/chef-s-pork-premium-frozen-iberico-belly-slice-250g-13091176
